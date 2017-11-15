@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+casting.py	../aula2/casting.py	1;"	kind:file	line:1
+dicionario.py	../aula2/dicionario.py	1;"	kind:file	line:1
+idade	../aula2/strings.py	/^idade = 27$/;"	kind:variable	line:53
+imprimir	../aula1/script.py	/^def imprimir(nome, $/;"	kind:function	line:47
+input.py	../aula1/input.py	1;"	kind:file	line:1
+lista	../aula1/input.py	/^lista = ['a', 'b', 'c']$/;"	kind:variable	line:5
+lista	../aula1/script.py	/^lista = list()$/;"	kind:variable	line:43
+listas.py	../aula2/listas.py	1;"	kind:file	line:1
+nome	../aula1/input.py	/^nome = input("Digite seu nome: ")$/;"	kind:variable	line:1
+nome	../aula2/strings.py	/^nome = "Gabriel"$/;"	kind:variable	line:52
+numeros.py	../aula2/numeros.py	1;"	kind:file	line:1
+operadores.py	../aula2/operadores.py	1;"	kind:file	line:1
+script.py	../aula1/script.py	1;"	kind:file	line:1
+string	../aula1/script.py	/^GRANDE"$/;"	kind:variable	line:32
+strings.py	../aula2/strings.py	1;"	kind:file	line:1
+var	../aula1/script.py	/^var = True$/;"	kind:variable	line:3
+var	../aula2/dicionario.py	/^var = {"nome": "Gabriel", "email": "gabriel@gabriel"}$/;"	kind:variable	line:26
+var	../aula2/dicionario.py	/^var = {$/;"	kind:variable	line:1
+var	../aula2/strings.py	/^var = "PYT''\\"HON"$/;"	kind:variable	line:1
+var	../aula2/strings.py	/^var = "PYTHON"$/;"	kind:variable	line:31
+var	../aula2/strings.py	/^var = "SEU NOME É: " + "GABRIEL"$/;"	kind:variable	line:54
+var	../aula2/strings.py	/^var = "SEU NOME É: %s TENHO %s ANOS" % (nome, idade)$/;"	kind:variable	line:55
+var	../aula2/strings.py	/^var = "SEU NOME É: {0} TENHO {1} ANOS".format(nome[0:3], idade)$/;"	kind:variable	line:57
+var	../aula2/strings.py	/^var = 'PYTH"ON'$/;"	kind:variable	line:2
+x	../aula2/listas.py	/^x = [$/;"	kind:variable	line:23
+x	../aula2/listas.py	/^x = ['python', 'php', 'java']$/;"	kind:variable	line:1
+x	../aula2/numeros.py	/^x = 10$/;"	kind:variable	line:1
+x	../aula2/numeros.py	/^x = 2j$/;"	kind:variable	line:7
+x	../aula2/numeros.py	/^x = 3.14$/;"	kind:variable	line:4
+x	../aula2/numeros.py	/^x = False$/;"	kind:variable	line:10
+x	../aula2/numeros.py	/^x = True$/;"	kind:variable	line:11
+z	../aula2/listas.py	/^z = ['windows', 'linux']$/;"	kind:variable	line:27
