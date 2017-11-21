@@ -5,15 +5,21 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 casting.py	../aula2/casting.py	1;"	kind:file	line:1
+condicao.py	../aula2/condicao.py	1;"	kind:file	line:1
 dicionario.py	../aula2/dicionario.py	1;"	kind:file	line:1
+habilitacao	../aula2/condicao.py	/^habilitacao = True$/;"	kind:variable	line:4
+idade	../aula2/condicao.py	/^idade = int(input("Digite sua idade: "))$/;"	kind:variable	line:3
 idade	../aula2/strings.py	/^idade = 27$/;"	kind:variable	line:53
 imprimir	../aula1/script.py	/^def imprimir(nome, $/;"	kind:function	line:47
 input.py	../aula1/input.py	1;"	kind:file	line:1
 lista	../aula1/input.py	/^lista = ['a', 'b', 'c']$/;"	kind:variable	line:5
 lista	../aula1/script.py	/^lista = list()$/;"	kind:variable	line:43
+lista	../aula2/condicao.py	/^lista = [17, 16]$/;"	kind:variable	line:1
 listas.py	../aula2/listas.py	1;"	kind:file	line:1
 nome	../aula1/input.py	/^nome = input("Digite seu nome: ")$/;"	kind:variable	line:1
 nome	../aula2/strings.py	/^nome = "Gabriel"$/;"	kind:variable	line:52
+num	../aula2/operadores.py	/^num = 2$/;"	kind:variable	line:1
+num	../aula2/operadores.py	/^num = num + 2$/;"	kind:variable	line:3
 numeros.py	../aula2/numeros.py	1;"	kind:file	line:1
 operadores.py	../aula2/operadores.py	1;"	kind:file	line:1
 script.py	../aula1/script.py	1;"	kind:file	line:1
