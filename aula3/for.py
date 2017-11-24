@@ -30,3 +30,12 @@ for a in alunos:
         notas += n
     
     print("Aluno %s nota %s" % (a['nome'], notas))
+
+
+for n in range(10):
+    if n == 5:
+        break
+    else:
+        print(n)
+else:
+    print("ELSE")
