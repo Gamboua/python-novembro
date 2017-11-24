@@ -1,24 +1,20 @@
+def dec_mostra(func):
+    def nova_func(num1, num2):
+        return "Resultado: " + str(func(num1, num2))
+    return func
+
+
 def soma(num1, num2):
     return num1 + num2
 
-def dec_mostra_soma(func):
-    def nova_func(num1, num2):
-        return "Resultado: " + str(func(num1, num2))
-    return nova_func
-
-resultado = dec_mostra_soma(soma)
-
-print(resultado(2, 4))
-
-#############
-
-def dec_mostra_sub(func):
-    def nova_func(num1, num2):
-        return "Resultado: " + str(func(num1, num2))
-    return nova_func
-
-@dec_mostra_sub
+@dec_mostra
 def sub(num1, num2):
     return num1 - num2
 
-print(sub(2, 1)) 
+resultado = dec_mostra(soma)
+
+print(resultado(2, 4))
+
+print(sub(2, 1))
+
+#############
