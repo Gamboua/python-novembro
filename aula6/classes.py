@@ -7,6 +7,9 @@ class SeresHumanos:
     def get_altura(self):
         return self.__altura
 
+    def set_altura(self, altura):
+        self.__altura = altura
+
     def __init__(self, altura, peso, nome):
         self.altura = altura
         self.peso = peso
