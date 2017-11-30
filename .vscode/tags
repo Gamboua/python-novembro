@@ -6,49 +6,93 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 Bola	../aula6/exec15.py	/^class Bola:$/;"	kind:class	line:1
 Mulher	../aula6/classes.py	/^class Mulher(SeresHumanos):$/;"	kind:class	line:27
+Pessoa	../aula6/exec17.py	/^class Pessoa:$/;"	kind:class	line:1
+Quadrado	../aula6/exec16.py	/^class Quadrado:$/;"	kind:class	line:1
 SeresHumanos	../aula6/classes.py	/^class SeresHumanos:$/;"	kind:class	line:1
 __altura	../aula6/classes.py	/^    __altura = None$/;"	kind:variable	line:2
+__altura	../aula6/exec17.py	/^    __altura = None$/;"	kind:variable	line:5
 __circ	../aula6/exec15.py	/^    __circ = 3.14$/;"	kind:variable	line:3
 __cor	../aula6/exec15.py	/^    __cor = 'Preto'$/;"	kind:variable	line:2
 __idade	../aula6/classes.py	/^    __idade = 0$/;"	kind:variable	line:4
+__idade	../aula6/exec17.py	/^    __idade = None$/;"	kind:variable	line:3
 __init__	../aula6/classes.py	/^    def __init__(self, altura, peso, nome):$/;"	kind:member	line:13
 __init__	../aula6/exec15.py	/^    def __init__(self, cor, circ, material):$/;"	kind:member	line:6
+__init__	../aula6/exec16.py	/^    def __init__(self, lado):$/;"	kind:member	line:4
+__init__	../aula6/exec17.py	/^    def __init__(self, nome, idade, peso, altura):$/;"	kind:member	line:7
+__init__.py	../mod/__init__.py	1;"	kind:file	line:1
+__init__.py	../mod/lib/__init__.py	1;"	kind:file	line:1
+__init__.py	../mod/src/__init__.py	1;"	kind:file	line:1
+__init__.py	../mod/src/bin/__init__.py	1;"	kind:file	line:1
+__lado	../aula6/exec16.py	/^    __lado = None$/;"	kind:variable	line:2
 __material	../aula6/exec15.py	/^    __material = 'Couro'$/;"	kind:variable	line:4
 __nome	../aula6/classes.py	/^    __nome = None$/;"	kind:variable	line:5
+__nome	../aula6/exec17.py	/^    __nome = None$/;"	kind:variable	line:2
 __peso	../aula6/classes.py	/^    __peso = None$/;"	kind:variable	line:3
+__peso	../aula6/exec17.py	/^    __peso = None$/;"	kind:variable	line:4
 a	../aula3/exec1.py	/^a = input("STRING A: ")$/;"	kind:variable	line:1
 a	../aula4/funcoes.py	/^a = 2$/;"	kind:variable	line:1
+aluno	../aula7/mod_json.py	/^aluno = {$/;"	kind:variable	line:3
 alunos	../aula3/exec5.py	/^alunos = [{$/;"	kind:variable	line:1
 alunos	../aula3/for.py	/^alunos = [{$/;"	kind:variable	line:7
+alunos	../aula7/exec18.py	/^    alunos = json.loads(f.read())$/;"	kind:variable	line:8
+alunos	../aula7/exec19.py	/^    alunos = json.loads(f.read())$/;"	kind:variable	line:6
+alunos	../aula9/postgres.py	/^    alunos = cur.fetchall()$/;"	kind:variable	line:34
 andar	../aula6/classes.py	/^    def andar(self):$/;"	kind:member	line:18
 anonimas.py	../aula5/anonimas.py	1;"	kind:file	line:1
+area	../aula6/exec16.py	/^    def area(self):$/;"	kind:member	line:13
+arg.py	../aula7/arg.py	1;"	kind:file	line:1
 args_kwargs.py	../aula5/args_kwargs.py	1;"	kind:file	line:1
+arquivo	../aula7/mod_csv.py	/^    arquivo = csv.reader(csvfile, delimiter=';')$/;"	kind:variable	line:4
+arquivo	../aula7/mod_csv.py	/^    arquivo = csv.writer(csvfile, delimiter=';')$/;"	kind:variable	line:10
 atual	../aula3/exec3.py	/^    atual = int(input("Insira um número: "))$/;"	kind:variable	line:20
 atual	../aula3/exec3.py	/^    atual = int(input("Insira um número: "))$/;"	kind:variable	line:4
 b	../aula3/exec1.py	/^b = input("STRING B: ")$/;"	kind:variable	line:2
 b	../aula4/funcoes.py	/^b = 3$/;"	kind:variable	line:2
+binario	../mod/src/bin/binario.py	/^def binario():$/;"	kind:function	line:1
+binario.py	../mod/src/bin/binario.py	1;"	kind:file	line:1
 cadastro	../aula5/args_kwargs.py	/^def cadastro(**kwargs):$/;"	kind:function	line:6
 casting.py	../aula2/casting.py	1;"	kind:file	line:1
 classes.py	../aula6/classes.py	1;"	kind:file	line:1
+client	../aula9/mongo.py	/^client = MongoClient('127.0.0.1')$/;"	kind:variable	line:3
 comer	../aula6/classes.py	/^    def comer(self):$/;"	kind:member	line:24
 comp.py	../aula3/comp.py	1;"	kind:file	line:1
+con	../aula9/mysql.py	/^    con = MySQLdb.connect($/;"	kind:variable	line:3
+con	../aula9/postgres.py	/^    con = psycopg2.connect($/;"	kind:variable	line:5
 condicao.py	../aula2/condicao.py	1;"	kind:file	line:1
+crescer	../aula6/exec17.py	/^    def crescer(self, altura):$/;"	kind:member	line:22
+cur	../aula9/mysql.py	/^    cur = con.cursor()$/;"	kind:variable	line:10
+cur	../aula9/postgres.py	/^    cur = con.cursor()$/;"	kind:variable	line:11
 data	../aula3/exec2.py	/^data = "%s\/%s\/%s" % (data[2], data[1], data[0])$/;"	kind:variable	line:13
 data	../aula3/exec2.py	/^data = data.split('-')$/;"	kind:variable	line:5
 data	../aula3/exec2.py	/^data = input("Informe a data: ")$/;"	kind:variable	line:1
+data	../aula7/mod_datetime.py	/^data = 'Jun 1 2005'$/;"	kind:variable	line:11
+data1	../aula7/mod_datetime.py	/^data1 = datetime.now()$/;"	kind:variable	line:14
+data2	../aula7/mod_datetime.py	/^data2 = datetime.now() + periodo$/;"	kind:variable	line:15
+db	../aula9/mongo.py	/^db = client['escola']$/;"	kind:variable	line:4
+db	../aula9/mysql.py	/^        db="escola"$/;"	kind:variable	line:7
 dec_mostra	../aula5/decorator.py	/^def dec_mostra(func):$/;"	kind:function	line:1
 decorator.py	../aula5/decorator.py	1;"	kind:file	line:1
+dicionario	../aula7/mod_json.py	/^    dicionario = json.loads(f.read())$/;"	kind:variable	line:17
 dicionario.py	../aula2/dicionario.py	1;"	kind:file	line:1
 div	../aula4/exec11.py	/^def div(a, b):$/;"	kind:function	line:7
 div	../aula4/exec12.py	/^def div():$/;"	kind:function	line:7
+emagrecer	../aula6/exec17.py	/^    def emagrecer(self, kilos):$/;"	kind:member	line:19
 email	../aula4/exec14.py	/^        email = input("Insira o email: ")$/;"	kind:variable	line:32
 email	../aula4/exec14.py	/^        email = input("Insira o email: ")$/;"	kind:variable	line:37
+email	../aula7/exec18.py	/^email = input("Insira o email do aluno: ")$/;"	kind:variable	line:5
+email	../aula7/exec19.py	/^email = input("Insira o email do aluno: ")$/;"	kind:variable	line:3
+engordar	../aula6/exec17.py	/^    def engordar(self, kilos):$/;"	kind:member	line:16
+envelhecer	../aula6/exec17.py	/^    def envelhecer(self, idade):$/;"	kind:member	line:13
 exec1.py	../aula3/exec1.py	1;"	kind:file	line:1
 exec11.py	../aula4/exec11.py	1;"	kind:file	line:1
 exec12.py	../aula4/exec12.py	1;"	kind:file	line:1
 exec13.py	../aula4/exec13.py	1;"	kind:file	line:1
 exec14.py	../aula4/exec14.py	1;"	kind:file	line:1
 exec15.py	../aula6/exec15.py	1;"	kind:file	line:1
+exec16.py	../aula6/exec16.py	1;"	kind:file	line:1
+exec17.py	../aula6/exec17.py	1;"	kind:file	line:1
+exec18.py	../aula7/exec18.py	1;"	kind:file	line:1
+exec19.py	../aula7/exec19.py	1;"	kind:file	line:1
 exec2.py	../aula3/exec2.py	1;"	kind:file	line:1
 exec3.py	../aula3/exec3.py	1;"	kind:file	line:1
 exec4.py	../aula3/exec4.py	1;"	kind:file	line:1
@@ -71,6 +115,7 @@ get_todos	../aula4/exec13.py	/^def get_todos():$/;"	kind:function	line:11
 get_todos	../aula4/exec14.py	/^def get_todos():$/;"	kind:function	line:12
 get_um	../aula4/exec14.py	/^def get_um(email):$/;"	kind:function	line:16
 habilitacao	../aula2/condicao.py	/^habilitacao = True$/;"	kind:variable	line:4
+host	../aula9/mysql.py	/^        host="127.0.0.1",$/;"	kind:variable	line:4
 i	../aula4/exec9.py	/^        i = i.strip('\\n')$/;"	kind:variable	line:3
 idade	../aula2/condicao.py	/^idade = int(input("Digite sua idade: "))$/;"	kind:variable	line:3
 idade	../aula2/strings.py	/^idade = 27$/;"	kind:variable	line:53
@@ -79,6 +124,10 @@ imprimir	../aula1/script.py	/^def imprimir(nome, $/;"	kind:function	line:47
 input.py	../aula1/input.py	1;"	kind:file	line:1
 inserir	../aula4/exec13.py	/^def inserir(nome, email):$/;"	kind:function	line:7
 inserir	../aula4/exec14.py	/^def inserir(nome, email):$/;"	kind:function	line:8
+library	../aula7/lib/library.py	/^def library():$/;"	kind:function	line:1
+library	../mod/lib/library.py	/^def library():$/;"	kind:function	line:1
+library.py	../aula7/lib/library.py	1;"	kind:file	line:1
+library.py	../mod/lib/library.py	1;"	kind:file	line:1
 lista	../aula1/input.py	/^lista = ['a', 'b', 'c']$/;"	kind:variable	line:5
 lista	../aula1/script.py	/^lista = list()$/;"	kind:variable	line:43
 lista	../aula2/condicao.py	/^lista = [17, 16]$/;"	kind:variable	line:1
@@ -90,12 +139,22 @@ maior	../aula3/exec3.py	/^maior = 0$/;"	kind:variable	line:7
 manipulacao.py	../aula4/manipulacao.py	1;"	kind:file	line:1
 maria	../aula6/classes.py	/^maria = Mulher(True, 'maria', 1.75, 85)$/;"	kind:variable	line:35
 media	../aula3/exec5.py	/^    media = int(notas \/ len(a['notas']))$/;"	kind:variable	line:20
+mod_csv.py	../aula7/mod_csv.py	1;"	kind:file	line:1
+mod_datetime.py	../aula7/mod_datetime.py	1;"	kind:file	line:1
+mod_json.py	../aula7/mod_json.py	1;"	kind:file	line:1
+mod_os.py	../aula7/mod_os.py	1;"	kind:file	line:1
+mod_sys.py	../aula7/mod_sys.py	1;"	kind:file	line:1
+modulos.py	../aula7/modulos.py	1;"	kind:file	line:1
+mongo.py	../aula9/mongo.py	1;"	kind:file	line:1
 mostrar_cor	../aula6/exec15.py	/^    def mostrar_cor(self):$/;"	kind:member	line:17
+mudar_lado	../aula6/exec16.py	/^    def mudar_lado(self, lado):$/;"	kind:member	line:10
 mult	../aula4/exec11.py	/^def mult(a, b):$/;"	kind:function	line:10
 mult	../aula4/exec12.py	/^def mult():$/;"	kind:function	line:10
+mysql.py	../aula9/mysql.py	1;"	kind:file	line:1
 nome	../aula1/input.py	/^nome = input("Digite seu nome: ")$/;"	kind:variable	line:1
 nome	../aula2/strings.py	/^nome = "Gabriel"$/;"	kind:variable	line:52
 nome	../aula4/exec14.py	/^        nome = input("Insira o nome: ")$/;"	kind:variable	line:31
+nome	../aula7/exec18.py	/^nome = input("Insira o nome do aluno: ")$/;"	kind:variable	line:4
 notas	../aula3/exec5.py	/^    notas = 0$/;"	kind:variable	line:16
 notas	../aula3/for.py	/^    notas = 0$/;"	kind:variable	line:28
 nova_func	../aula5/decorator.py	/^    def nova_func(num1, num2):$/;"	kind:function	line:2
@@ -118,7 +177,12 @@ opcao	../aula4/exec11.py	/^opcao = int(input(menu))$/;"	kind:variable	line:21
 opcao	../aula4/exec12.py	/^    opcao = int(input(menu))$/;"	kind:variable	line:28
 opcao	../aula4/exec14.py	/^    opcao = int(input(menu))$/;"	kind:variable	line:28
 operadores.py	../aula2/operadores.py	1;"	kind:file	line:1
+passwd	../aula9/mysql.py	/^        passwd="123456",$/;"	kind:variable	line:6
+periodo	../aula7/mod_datetime.py	/^periodo = timedelta(7)$/;"	kind:variable	line:5
+postgres.py	../aula9/postgres.py	1;"	kind:file	line:1
 resultado	../aula5/decorator.py	/^resultado = dec_mostra(soma)$/;"	kind:variable	line:14
+retornar_lado	../aula6/exec16.py	/^    def retornar_lado(self):$/;"	kind:member	line:7
+run.py	../mod/run.py	1;"	kind:file	line:1
 script.py	../aula1/script.py	1;"	kind:file	line:1
 senha	../aula3/exec7.py	/^    senha = input("Insira uma senha diferente: ")$/;"	kind:variable	line:5
 senha	../aula3/exec7.py	/^senha = input("Insira a senha: ")$/;"	kind:variable	line:2
@@ -130,6 +194,8 @@ soma	../aula4/funcoes.py	/^def soma():$/;"	kind:function	line:4
 soma	../aula5/args_kwargs.py	/^def soma(*args, **kwargs):$/;"	kind:function	line:1
 soma	../aula5/decorator.py	/^def soma(num1, num2):$/;"	kind:function	line:7
 string	../aula1/script.py	/^GRANDE"$/;"	kind:variable	line:32
+string	../aula7/exec18.py	/^string = json.dumps(alunos)$/;"	kind:variable	line:18
+string	../aula7/mod_json.py	/^string = json.dumps(aluno)$/;"	kind:variable	line:8
 strings.py	../aula2/strings.py	1;"	kind:file	line:1
 sub	../aula4/exec11.py	/^def sub(a,b):$/;"	kind:function	line:4
 sub	../aula4/exec12.py	/^def sub():$/;"	kind:function	line:4
@@ -137,7 +203,9 @@ sub	../aula5/decorator.py	/^def sub(num1, num2):$/;"	kind:function	line:11
 ternario.py	../aula3/ternario.py	1;"	kind:file	line:1
 total	../aula4/exec8.py	/^total = numa+numb$/;"	kind:variable	line:4
 trocar_cor	../aula6/exec15.py	/^    def trocar_cor(self, cor):$/;"	kind:member	line:20
+try.py	../aula7/try.py	1;"	kind:file	line:1
 user	../aula3/exec7.py	/^user = input("Insira o usuario: ")$/;"	kind:variable	line:1
+user	../aula9/mysql.py	/^        user="root",$/;"	kind:variable	line:5
 var	../aula1/script.py	/^var = True$/;"	kind:variable	line:3
 var	../aula2/dicionario.py	/^var = {"nome": "Gabriel", "email": "gabriel@gabriel"}$/;"	kind:variable	line:26
 var	../aula2/dicionario.py	/^var = {$/;"	kind:variable	line:1
@@ -149,6 +217,7 @@ var	../aula2/strings.py	/^var = "SEU NOME É: {0} TENHO {1} ANOS".format(nome[0:
 var	../aula2/strings.py	/^var = 'PYTH"ON'$/;"	kind:variable	line:2
 var	../aula5/anonimas.py	/^var = [$/;"	kind:variable	line:5
 var	../aula5/anonimas.py	/^var = lambda x: x * 2$/;"	kind:variable	line:1
+var	../aula7/try.py	/^    var = True$/;"	kind:variable	line:2
 while.py	../aula3/while.py	1;"	kind:file	line:1
 x	../aula2/listas.py	/^x = [$/;"	kind:variable	line:23
 x	../aula2/listas.py	/^x = ['python', 'php', 'java']$/;"	kind:variable	line:1

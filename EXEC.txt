@@ -42,8 +42,37 @@ Métodos: trocaCor e mostraCor
 
 16 - Classe Quadrado: Crie uma classe que modele um quadrado:
 Atributos: Tamanho do lado
-Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área;
+Métodos: Mudar valor do 
+            curses.endwin()
+            sys.exit()
+
+    def add_message(self, input):
+        try:
+            self.tela.addstr("Mensagem: ")
+            input = self.tela.getstr().decode(encoding="utf-8")
+            self.tela.clear()
+            message = Banco()
+            message.add_message(name=nome, message=str(input))
+Lado, Retornar valor do Lado e calcular Área;
 
 17 - Classe Pessoa: Crie uma classe que modele uma pessoa:
 Atributos: nome, idade, peso e altura
 Métodos: Envelhercer, engordar, emagrecer, crescer.
+
+--- MODULOS EXTERNOS ---
+18 - FAÇA UM PROGRAMA QUE RECEBA O NOME E EMAIL DO ALUNO.
+CADASTRE AS INFORMAÇÕES NOME, EMAIL E DATA DE CADASTRO EM UM 
+ARQUIVO JSON.
+
+19 - FAÇA UM PROGRAMA QUE RECEBA O EMAIL DO ALUNO E RETORNE 
+O NOME E A DATA DE CADASTRO NO FORMATO DD-M-YYYY
+
+--- BANCO RELACIONAL ---
+20 - FAÇA UM PROGRAMA QUE RECEBA NOME E EMAIL 
+DO USUARIO E CADASTRE NO BANCO.
+
+21 - FAÇA UM PROGRAMA QUE RECEBA UM EMAIL E 
+APAGUE DO BANCO.
+
+22 - FAÇA UM PROGRAMA QUE ALTERE O NOME ATUAL.
+A BUSCA PELO REGISTRO PODE SER FEITA PELO EMAIL.
